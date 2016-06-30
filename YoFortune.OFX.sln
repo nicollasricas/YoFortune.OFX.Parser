@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoFortune.OFX", "YoFortune.OFX\YoFortune.OFX.csproj", "{E955DFF4-514A-4723-9B0C-22DF677B063D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D5EB02C-1339-4148-BC36-9E16589BD5AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ECA6A5C6-3389-4BEC-AEFE-6832FABEA80E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoFortune.OFX.Test", "YoFortune.OFX.Test\YoFortune.OFX.Test.csproj", "{1626B3CE-EDB9-42C8-9E38-39E6E914AAD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DB8E0FF-7C84-4E0F-A216-3619554F1A4B}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		CodeMaid.config = CodeMaid.config
+		CONTRIBUTORS.md = CONTRIBUTORS.md
+		LICENSE = LICENSE
+		README.md = README.md
+		ROADMAP.md = ROADMAP.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E955DFF4-514A-4723-9B0C-22DF677B063D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E955DFF4-514A-4723-9B0C-22DF677B063D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E955DFF4-514A-4723-9B0C-22DF677B063D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E955DFF4-514A-4723-9B0C-22DF677B063D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1626B3CE-EDB9-42C8-9E38-39E6E914AAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1626B3CE-EDB9-42C8-9E38-39E6E914AAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1626B3CE-EDB9-42C8-9E38-39E6E914AAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1626B3CE-EDB9-42C8-9E38-39E6E914AAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E955DFF4-514A-4723-9B0C-22DF677B063D} = {4D5EB02C-1339-4148-BC36-9E16589BD5AF}
+		{1626B3CE-EDB9-42C8-9E38-39E6E914AAD3} = {ECA6A5C6-3389-4BEC-AEFE-6832FABEA80E}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 7bfdf041-21a6-47ea-8978-6f0c6627f471
+	EndGlobalSection
+EndGlobal
