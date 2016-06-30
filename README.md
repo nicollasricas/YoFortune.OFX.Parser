@@ -2,7 +2,15 @@
 
 A .NET **OFX** (*[Open Financial Exchange](http://www.ofx.net/)*) parser.
 
-[Full Documentation](wiki)
+[Full Documentation](https://github.com/nicollasricas/YoFortune.OFX.Parser/wiki)
+
+
+Download/Install
+----------
+
+##### GitHub [Releases](https://github.com/nicollasricas/YoFortune.OFX.Parser/wiki)
+##### Nuget
+    Install-Package YoFortune.OFX
 
 
 Features [Roadmap](ROADMAP.md)
