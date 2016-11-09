@@ -2,12 +2,14 @@
 
 A .NET **OFX** (*[Open Financial Exchange](http://www.ofx.net/)*) parser.
 
-    var parser = new OFXDocumentParser();
+```csharp
+var parser = new OFXDocumentParser();
 
-    var document = parser.Load(File.ReadAllText("CC17323-09-11.ofx"));
+var document = parser.Load(File.ReadAllText("CC17323-09-11.ofx"));
 
-    document.BankAccounts[i].BranchId, BankId, AccountId, Transactions...
-    document.BankAccounts[i].Transactions[i].Amount, Memo, Date, Type...
+document.BankAccounts[i].BranchId, BankId, AccountId, Transactions...
+document.BankAccounts[i].Transactions[i].Amount, Memo, Date, Type...
+```
 
 
 Download/Install
