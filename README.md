@@ -2,13 +2,18 @@
 
 A .NET **OFX** (*[Open Financial Exchange](http://www.ofx.net/)*) parser.
 
-[Full Documentation](https://github.com/nicollasricas/YoFortune.OFX.Parser/wiki)
+    var parser = new OFXDocumentParser();
+
+    var document = parser.Load(File.ReadAllText("CC17323-09-11.ofx"));
+
+    document.BankAccounts[i].BranchId, BankId, AccountId, Transactions...
+    document.BankAccounts[i].Transactions[i].Amount, Memo, Date, Type...
 
 
 Download/Install
 ----------
 
-##### GitHub [Releases](https://github.com/nicollasricas/YoFortune.OFX.Parser/wiki)
+##### GitHub [Releases](https://github.com/nicollasricas/YoFortune.OFX.Parser/releases)
 ##### Nuget
     Install-Package YoFortune.OFX
 
@@ -17,9 +22,8 @@ Features [Roadmap](ROADMAP.md)
 ----------
 
 - Parse OFX files
-- Support for multiple bank accounts and their transactions in same OFX (*normally used by conjuged bank accounts*)
+- Support for multiple bank accounts and their transactions
 - Support for latin characters
-- Export to valid XML
 
 
 Dependencies
@@ -38,18 +42,9 @@ Changelog [Full Changelog](CHANGELOG.md)
 Contributing
 ----------
 
-Contributions via pull request are great! We use **TABS** for indentation.
+Contributions via pull request are great! 
 
-
-There are many ways you can contribute to YoFortune.OFX. Some of the things that you could help are:
-
-* Documentation (both code and features)
-* Bug reports
-* Bug fixes
-* Feature requests
-* Feature implementations
-* Test coverage
-* Code quality
+We use **SPACES** for indentation.
 
 
 Copyright

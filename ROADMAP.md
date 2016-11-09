@@ -4,6 +4,7 @@ ROADMAP
 ### Planned - 1.0.1
 
 - Add support for credit cards transactions
-- Add bank account balance listing
+- Add support for bank accounts balance
+- Export OFX to XML
 
 ### Future
