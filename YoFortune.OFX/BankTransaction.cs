@@ -17,6 +17,9 @@ namespace YoFortune.OFX
         [MapTo("MEMO")]
         public string Memo { get; set; }
 
+        [MapTo("NAME")]
+        public string Name { get; set; }
+
         [MapTo("CHECKNUM")]
         public string Number { get; set; }
 
