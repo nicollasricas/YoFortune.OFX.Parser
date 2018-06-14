@@ -16,12 +16,7 @@ namespace YoFortune.OFX
             }
         }
 
-        public OFXDocument Load(string ofx)
-        {
-            var data = Encoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(ofx));
-
-            return Parse(Encoding.UTF8.GetString(data));
-        }
+        public OFXDocument Load(string ofx) => Parse(Encoding.UTF8.GetString(Encoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(ofx))));
 
         private string ConvertSGMLTOXML(string sgml)
         {

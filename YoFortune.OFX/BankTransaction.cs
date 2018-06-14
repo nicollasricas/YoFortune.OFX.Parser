@@ -20,6 +20,9 @@ namespace YoFortune.OFX
         [MapTo("CHECKNUM")]
         public string Number { get; set; }
 
+        [MapTo("REFNUM")]
+        public string Reference { get; set; }
+
         [MapTo("TRNTYPE")]
         public string Type { get; set; }
     }
