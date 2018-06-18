@@ -87,6 +87,10 @@ namespace YoFortune.OFX
 
                     return string.Format("{0}-{1}-{2}", value.Substring(0, 4), value.Substring(4, 2), value.Substring(6, 2));
                 }
+                else if (propertyInfo.PropertyType == typeof(decimal))
+                {
+                    return value.Replace(",", ".");
+                }
 
                 return value;
             });
